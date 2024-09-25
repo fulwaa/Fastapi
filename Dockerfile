@@ -17,7 +17,7 @@ ENV PATH="/opt/venv/bin:$PATH"
 
 COPY ./app /code/app
 
-RUN mkdir -p /code/app/files
+RUN mkdir -p /code/files
 
 EXPOSE 8000
 
